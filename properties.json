@@ -1,0 +1,15 @@
+{
+  "brand": "Fluidseal World",
+  "parent": "https://world.fluidsealab.com",
+  "updated": "2026-07-08",
+  "properties": [
+    { "key": "world",    "name": "Fluidseal World",            "url": "https://world.fluidsealab.com",            "visibility": "public" },
+    { "key": "marion",   "name": "Marion — AI sealing agent",  "url": "https://marion.fluidsealab.com",           "visibility": "public" },
+    { "key": "posters",  "name": "Application posters",        "url": "https://posters.fluidsealab.com",          "visibility": "public" },
+    { "key": "training", "name": "Training",                   "url": "https://training.fluidsealab.com",         "visibility": "public",
+      "note": "adjust URL if the fluidseal-training repo publishes elsewhere" },
+    { "key": "shop",     "name": "SealsOnline store",          "url": "https://www.sealsonline.com/en/flabed",    "visibility": "public" },
+    { "key": "ops",      "name": "Internal ops (reserved)",    "url": null,                                        "visibility": "internal",
+      "note": "future: Supabase RLS-gated data or ops.fluidsealab.com behind Cloudflare Access — sensitive data never lives in this public repo" }
+  ]
+}
