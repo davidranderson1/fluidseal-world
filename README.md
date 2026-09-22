@@ -25,7 +25,7 @@ Live at **https://world.fluidsealab.com** · Parent property over Marion, Poster
 
 All editable data sits at the top of the `<script>` block in `index.html`:
 
-- **`MARKETS`** — 11 market objects: `anchor` (hash key + SVG `data-anchor`), `name`, `color`, `blurb`, `apps`.
+- **`MARKETS`** — 12 market objects: `anchor` (hash key + SVG `data-anchor`), `name`, `color`, `blurb`, `apps`.
 - **`FAMILIES`** — the 9-family grid shown in every panel. Slugs are verified live against `sealsonline.com/en/flabed/categories/…`.
 - **`PROPERTIES`** — the ecosystem links in the Markets sheet. Mirror changes into `properties.json`.
 
